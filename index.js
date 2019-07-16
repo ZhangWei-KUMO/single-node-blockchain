@@ -23,7 +23,7 @@ const configure = require("./configure.js");
 
 const app = next({ dev });
 
-// const api = require("./api");
+const api = require("./api");
 const handle = app.getRequestHandler();
 
 const server = express();
@@ -34,7 +34,7 @@ server.use(bodyParser.json());
 
 server.use(cookieParser());
 server.use(compression());
-// server.use("/api", api);
+server.use("/api", api);
 
 // eslint-disable-next-line no-shadow
 server.use((req, res, next) => next());
