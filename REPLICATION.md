@@ -7,7 +7,7 @@
 一般情况下，副本集包含了若干个数据节点和一个可选的仲裁节点。在数据节点中会有一个主节点primary node, 剩下的则称为二级节点。主节点负责与客户端进行交互，其日志会放在olog中
 
 <center>
- <img src="./images/replication-1.png" style="width:50%"/>
+ <img src="./images/replication-1.png" style="width:500"/>
 </center>
 
 对于二级节点而言，它们会记录主节点的与客户端的交互日志olog,以及备份数据集，一旦主节点挂掉，它们会选举出一个新的主节点。
@@ -15,8 +15,8 @@
 除了上述这种架构之外，工程师还可以添加一个mongod实例化作为arbiter, Arbiter并不维护数据集合。它的工作只是通过响应heartbeat和其他副本的选举请求来确认节点数量。
 
 <center>
- <img src="./images/replication-2.png" style="width:50%"/>
- <img src="./images/replication-3.png" style="width:50%"/>
+ <img src="./images/replication-2.png" style="width:500"/>
+ <img src="./images/replication-3.png" style="width:500"/>
 </center>
 
 
@@ -24,5 +24,5 @@
 
 如果主节点在于其他节点交互的过程中超过了配置时间`electionTimeoutMills`（默认为10秒），某个二级节点就会被选为新的主节点，
 <center>
- <img src="./images/replication-4.png" style="width:50%"/>
+ <img src="./images/replication-4.png" style="width:500"/>
 </center>
