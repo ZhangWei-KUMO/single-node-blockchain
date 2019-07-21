@@ -6,7 +6,7 @@ class Blockchain {
   }
 
   createGenesis() {
-    return new Block(0, new Date(), "创世区块", "0")
+    return new Block(new Date(), "创世区块", "0")
   }
 
   latestBlock() {

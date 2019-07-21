@@ -16,10 +16,16 @@ class Market extends Component {
     try {
       let res = await fetch("/api/buy", {
         method: "POST",
+        credentials: "include",
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
         body: JSON.stringify(data),
       });
       if (res) {
-        console.log(res)
+        let back = await res.json();
+        console.log(back)
       } else {
         console.error("服务器无响应")
       }
