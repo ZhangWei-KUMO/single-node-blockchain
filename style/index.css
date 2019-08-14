@@ -28,5 +28,28 @@
 .container{
   width: 80%;
   margin:0 auto;
-  margin-top: 20px
+}
+
+.colu {
+  background: none;
+  color: #fff;
+}
+
+.no-hover tr:hover td {
+  background: transparent !important;
+}
+
+body{
+  padding: 0
+}
+
+.ant-table-thead > tr > th {
+  background: rgb(34, 188, 235,0.5);
+  color: #fff;
+  border-bottom:1px solid #22bceb80;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom:1px solid #22bceb80;
+
 }
