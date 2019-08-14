@@ -65,11 +65,11 @@ class Market extends Component {
       },
     ]
     return (
-      <div className="bg">
+      <div>
         <Head>
           <meta name="description" content="云帧数浪 - 云市场" />
           <meta name="baidu-site-verification" content="jdx62mQhIl" />
-          <title>芳兵的项目</title>
+          <title>区块链后台</title>
         </Head>
 
         <Row>

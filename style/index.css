@@ -1,0 +1,24 @@
+.bg{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1B2238;
+  padding: 0 30px;
+}
+
+.head {
+  color: #fff;
+  height: 100px;
+  padding: 20px
+}
+
+.card-style {
+  border-radius: 8px;
+  height: 300px;
+}
+
+.card-style h4 {
+  color: red;
+}
