@@ -88,39 +88,108 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 22);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./pages/blockchain.js":
-/*!*****************************!*\
-  !*** ./pages/blockchain.js ***!
-  \*****************************/
-/*! exports provided: default */
+module.exports = require("react");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/row");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+/* 4 */,
+/* 5 */,
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/row/style/css");
+
+/***/ }),
+/* 7 */,
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/table");
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports) {
+
+module.exports = require("mobx-react");
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports) {
+
+module.exports = require("mobx");
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = require("moment");
+
+/***/ }),
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(23);
+
+
+/***/ }),
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/row/style/css */ "antd/lib/row/style/css");
+/* harmony import */ var antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6);
 /* harmony import */ var antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
 /* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_table_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/table/style/css */ "antd/lib/table/style/css");
+/* harmony import */ var antd_lib_table_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(24);
 /* harmony import */ var antd_lib_table_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_table_style_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/table */ "antd/lib/table");
+/* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11);
 /* harmony import */ var antd_lib_table__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_table__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var mobx_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! mobx-react */ "mobx-react");
+/* harmony import */ var mobx_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(12);
 /* harmony import */ var mobx_react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(mobx_react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! mobx */ "mobx");
+/* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(13);
 /* harmony import */ var mobx__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(mobx__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! moment */ "moment");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(14);
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_9__);
 
 
@@ -128,10 +197,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _class,
-    _class2,
-    _descriptor,
-    _jsxFileName = "/Users/zhangwei/Desktop/single-node-blockchain/pages/blockchain.js";
+var _class, _class2, _descriptor;
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -260,12 +326,7 @@ function (_Component) {
             style: {
               maxWidth: "400px",
               overflow: "hidden"
-            },
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 31
-            },
-            __self: this
+            }
           }, text);
         }
       }, {
@@ -277,12 +338,7 @@ function (_Component) {
             style: {
               maxWidth: "400px",
               overflow: "hidden"
-            },
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 41
-            },
-            __self: this
+            }
           }, text);
         }
       }, {
@@ -293,12 +349,7 @@ function (_Component) {
           return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
             style: {
               minWidth: "200px"
-            },
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 51
-            },
-            __self: this
+            }
           }, moment__WEBPACK_IMPORTED_MODULE_9___default()(text).format("YYYY-MM-DD HH:mm"));
         }
       }, {
@@ -309,81 +360,19 @@ function (_Component) {
           return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
             style: {
               minWidth: "200px"
-            },
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 59
-            },
-            __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 60
-            },
-            __self: this
-          }, "\u5546\u54C1\uFF1A", text.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 61
-            },
-            __self: this
-          }, "\u4EF7\u683C\uFF1A", text.price, " \u5143"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 62
-            },
-            __self: this
-          }, "\u51FA\u552E\u65B9\uFF1A", text.location));
+            }
+          }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", null, "\u5546\u54C1\uFF1A", text.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", null, "\u4EF7\u683C\uFF1A", text.price, " \u5143"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", null, "\u51FA\u552E\u65B9\uFF1A", text.location));
         }
       }];
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "description",
-        content: "\u4E91\u5E27\u6570\u6D6A - \u4E91\u5E02\u573A",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
+        content: "\u4E91\u5E27\u6570\u6D6A - \u4E91\u5E02\u573A"
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("meta", {
         name: "baidu-site-verification",
-        content: "jdx62mQhIl",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, "\u533A\u5757\u94FE\u540E\u53F0")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 75
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_table__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        content: "jdx62mQhIl"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", null, "\u533A\u5757\u94FE\u540E\u53F0")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(antd_lib_table__WEBPACK_IMPORTED_MODULE_3___default.a, {
         columns: columns,
-        dataSource: this.items,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
+        dataSource: this.items
       })));
     }
   }]);
@@ -401,128 +390,10 @@ function (_Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Market);
 
 /***/ }),
-
-/***/ 4:
-/*!***********************************!*\
-  !*** multi ./pages/blockchain.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./pages/blockchain.js */"./pages/blockchain.js");
-
-
-/***/ }),
-
-/***/ "@babel/runtime/regenerator":
-/*!*********************************************!*\
-  !*** external "@babel/runtime/regenerator" ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/regenerator");
-
-/***/ }),
-
-/***/ "antd/lib/row":
-/*!*******************************!*\
-  !*** external "antd/lib/row" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/row");
-
-/***/ }),
-
-/***/ "antd/lib/row/style/css":
-/*!*****************************************!*\
-  !*** external "antd/lib/row/style/css" ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/row/style/css");
-
-/***/ }),
-
-/***/ "antd/lib/table":
-/*!*********************************!*\
-  !*** external "antd/lib/table" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/table");
-
-/***/ }),
-
-/***/ "antd/lib/table/style/css":
-/*!*******************************************!*\
-  !*** external "antd/lib/table/style/css" ***!
-  \*******************************************/
-/*! no static exports found */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/table/style/css");
 
-/***/ }),
-
-/***/ "mobx":
-/*!***********************!*\
-  !*** external "mobx" ***!
-  \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("mobx");
-
-/***/ }),
-
-/***/ "mobx-react":
-/*!*****************************!*\
-  !*** external "mobx-react" ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("mobx-react");
-
-/***/ }),
-
-/***/ "moment":
-/*!*************************!*\
-  !*** external "moment" ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("moment");
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
 /***/ })
-
-/******/ });
-//# sourceMappingURL=blockchain.js.map
+/******/ ]);

@@ -88,51 +88,128 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 25);
 /******/ })
 /************************************************************************/
-/******/ ({
+/******/ ([
+/* 0 */
+/***/ (function(module, exports) {
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
-/*! exports provided: default */
+module.exports = require("react");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/row");
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+/* 4 */,
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/col");
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/row/style/css");
+
+/***/ }),
+/* 7 */,
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/tabs");
+
+/***/ }),
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/modal");
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/card");
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/button");
+
+/***/ }),
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(26);
+
+
+/***/ }),
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_modal_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/modal/style/css */ "antd/lib/modal/style/css");
+/* harmony import */ var antd_lib_modal_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(27);
 /* harmony import */ var antd_lib_modal_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_modal_style_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_modal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/modal */ "antd/lib/modal");
+/* harmony import */ var antd_lib_modal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
 /* harmony import */ var antd_lib_modal__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_modal__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_card_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/card/style/css */ "antd/lib/card/style/css");
+/* harmony import */ var antd_lib_card_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28);
 /* harmony import */ var antd_lib_card_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_card_style_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/card */ "antd/lib/card");
+/* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(16);
 /* harmony import */ var antd_lib_card__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_card__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/button/style/css */ "antd/lib/button/style/css");
+/* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(29);
 /* harmony import */ var antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button_style_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/button */ "antd/lib/button");
+/* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(17);
 /* harmony import */ var antd_lib_button__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_button__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! antd/lib/row/style/css */ "antd/lib/row/style/css");
+/* harmony import */ var antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6);
 /* harmony import */ var antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row_style_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(2);
 /* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var antd_lib_col_style_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! antd/lib/col/style/css */ "antd/lib/col/style/css");
+/* harmony import */ var antd_lib_col_style_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(30);
 /* harmony import */ var antd_lib_col_style_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col_style_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(5);
 /* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(1);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var antd_lib_tabs_style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! antd/lib/tabs/style/css */ "antd/lib/tabs/style/css");
+/* harmony import */ var antd_lib_tabs_style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(31);
 /* harmony import */ var antd_lib_tabs_style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(antd_lib_tabs_style_css__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var antd_lib_tabs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! antd/lib/tabs */ "antd/lib/tabs");
+/* harmony import */ var antd_lib_tabs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(8);
 /* harmony import */ var antd_lib_tabs__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(antd_lib_tabs__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(3);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../style/index.css */ "./style/index.css");
+/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(32);
 /* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_style_index_css__WEBPACK_IMPORTED_MODULE_15__);
 
 
@@ -147,7 +224,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/zhangwei/Desktop/single-node-blockchain/pages/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -321,221 +397,71 @@ function (_Component) {
       var _this2 = this;
 
       return react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("div", {
-        className: "bg",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_14___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("meta", {
+        className: "bg"
+      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_14___default.a, null, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("meta", {
         name: "description",
-        content: "\u4E91\u5E27\u6570\u6D6A - \u4E91\u5E02\u573A",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
+        content: "\u4E91\u5E27\u6570\u6D6A - \u4E91\u5E02\u573A"
       }), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("meta", {
         name: "baidu-site-verification",
-        content: "jdx62mQhIl",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
-      }, "\u865A\u62DF\u5DE5\u4E1A\u56ED\u533A")), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("div", {
-        className: "head",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        lg: 4,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
+        content: "jdx62mQhIl"
+      }), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("title", null, "\u865A\u62DF\u5DE5\u4E1A\u56ED\u533A")), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("div", {
+        className: "head"
+      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        lg: 4
       }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("a", {
         href: "/blockchain",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
+        target: "_blank"
       }, "\u533A\u5757\u94FE\u540E\u53F0")), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        lg: 16,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("center", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, "\u865A\u62DF\u5DE5\u4E1A\u56ED\u533A")), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        lg: 4,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
+        lg: 16
+      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("center", null, "\u865A\u62DF\u5DE5\u4E1A\u56ED\u533A")), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        lg: 4
       }, "\u8D26\u6237\u603B\u91D1\u989D\uFF1A821,233\u5143"))), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_tabs__WEBPACK_IMPORTED_MODULE_12___default.a, {
         onChange: this.callback,
-        type: "card",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
+        type: "card"
       }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(TabPane, {
         tab: "\u56ED\u533A\u5546\u5E97",
-        key: "1",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }, ITEMS.map(function (item) {
+        key: "1"
+      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_7___default.a, null, ITEMS.map(function (item) {
         return react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_9___default.a, {
           span: 6,
           key: item.title,
           style: {
             padding: 20
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 88
-          },
-          __self: this
+          }
         }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_card__WEBPACK_IMPORTED_MODULE_3___default.a, {
-          className: "card-style",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 89
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("center", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 90
-          },
-          __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("img", {
+          className: "card-style"
+        }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("img", {
           src: item.image,
           alt: "logo",
           style: {
             height: "140px",
             marginBottom: "20px"
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 91
-          },
-          __self: this
-        })), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("h3", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 93
-          },
-          __self: this
-        }, item.title), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("h4", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 94
-          },
-          __self: this
-        }, item.price, "\u5143"), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_button__WEBPACK_IMPORTED_MODULE_5___default.a, {
+          }
+        })), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("h3", null, item.title), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("h4", null, item.price, "\u5143"), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_button__WEBPACK_IMPORTED_MODULE_5___default.a, {
           type: "primary",
           onClick: function onClick() {
             return _this2.buy("self", item);
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 95
-          },
-          __self: this
+          }
         }, "\u8D2D\u4E70")));
       }))), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(TabPane, {
         tab: "\u56ED\u533A\u52A0\u6CB9\u7AD9",
-        key: "2",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
+        key: "2"
       }, "Content of Tab Pane 2"), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(TabPane, {
         tab: "\u56ED\u533A\u505C\u8F66\u573A",
-        key: "3",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
+        key: "3"
       }, "Content of Tab Pane 3")), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement(antd_lib_modal__WEBPACK_IMPORTED_MODULE_1___default.a, {
         title: "\u5B8C\u6210\u51FA\u8D27",
         visible: this.state.visible,
         footer: null,
         onOk: this.handleOk,
-        onCancel: this.handleCancel,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("center", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("img", {
+        onCancel: this.handleCancel
+      }, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("img", {
         src: this.state.currentImage,
         style: {
           height: "140px",
           marginBottom: "20px"
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("h3", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115
-        },
-        __self: this
-      }, "\u8D2D\u4E70\u6210\u529F"))));
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement("h3", null, "\u8D2D\u4E70\u6210\u529F"))));
     }
   }]);
 
@@ -545,194 +471,40 @@ function (_Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Market);
 
 /***/ }),
-
-/***/ "./style/index.css":
-/*!*************************!*\
-  !*** ./style/index.css ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
-
-
-/***/ }),
-
-/***/ "@babel/runtime/regenerator":
-/*!*********************************************!*\
-  !*** external "@babel/runtime/regenerator" ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/regenerator");
-
-/***/ }),
-
-/***/ "antd/lib/button":
-/*!**********************************!*\
-  !*** external "antd/lib/button" ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/button");
-
-/***/ }),
-
-/***/ "antd/lib/button/style/css":
-/*!********************************************!*\
-  !*** external "antd/lib/button/style/css" ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/button/style/css");
-
-/***/ }),
-
-/***/ "antd/lib/card":
-/*!********************************!*\
-  !*** external "antd/lib/card" ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/card");
-
-/***/ }),
-
-/***/ "antd/lib/card/style/css":
-/*!******************************************!*\
-  !*** external "antd/lib/card/style/css" ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/card/style/css");
-
-/***/ }),
-
-/***/ "antd/lib/col":
-/*!*******************************!*\
-  !*** external "antd/lib/col" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/col");
-
-/***/ }),
-
-/***/ "antd/lib/col/style/css":
-/*!*****************************************!*\
-  !*** external "antd/lib/col/style/css" ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/col/style/css");
-
-/***/ }),
-
-/***/ "antd/lib/modal":
-/*!*********************************!*\
-  !*** external "antd/lib/modal" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("antd/lib/modal");
-
-/***/ }),
-
-/***/ "antd/lib/modal/style/css":
-/*!*******************************************!*\
-  !*** external "antd/lib/modal/style/css" ***!
-  \*******************************************/
-/*! no static exports found */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/modal/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/row":
-/*!*******************************!*\
-  !*** external "antd/lib/row" ***!
-  \*******************************/
-/*! no static exports found */
+/* 28 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/row");
+module.exports = require("antd/lib/card/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/row/style/css":
-/*!*****************************************!*\
-  !*** external "antd/lib/row/style/css" ***!
-  \*****************************************/
-/*! no static exports found */
+/* 29 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/row/style/css");
+module.exports = require("antd/lib/button/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/tabs":
-/*!********************************!*\
-  !*** external "antd/lib/tabs" ***!
-  \********************************/
-/*! no static exports found */
+/* 30 */
 /***/ (function(module, exports) {
 
-module.exports = require("antd/lib/tabs");
+module.exports = require("antd/lib/col/style/css");
 
 /***/ }),
-
-/***/ "antd/lib/tabs/style/css":
-/*!******************************************!*\
-  !*** external "antd/lib/tabs/style/css" ***!
-  \******************************************/
-/*! no static exports found */
+/* 31 */
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/tabs/style/css");
 
 /***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
+/* 32 */
 /***/ (function(module, exports) {
 
-module.exports = require("next/head");
 
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
 
 /***/ })
-
-/******/ });
-//# sourceMappingURL=index.js.map
+/******/ ]);

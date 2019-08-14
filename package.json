@@ -53,6 +53,6 @@
   },
   "scripts": {
     "dev": "export NODE_ENV=development && nodemon index.js",
-    "start": "export NODE_ENV=production && export DB_NAME=blockchaindb && nodemon index.js"
+    "start": "next build && export NODE_ENV=production && export DB_NAME=blockchaindb && nodemon index.js"
   }
 }
