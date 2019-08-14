@@ -9,7 +9,15 @@ const ITEMS = [
   { title: "乐事薯片", price: 12, location: "园区商店", image: "/static/images/leshi.png" },
   { title: "利群烟", price: 19, location: "园区商店", image: "/static/images/liqun.png" },
   { title: "农夫山泉", price: 3, location: "园区商店", image: "/static/images/water.png" },
-]
+];
+
+const ITEMS_2 = [
+  { title: "92#汽油", price: 38, location: "园区加油站", image: "/static/images/oil.png" },
+  { title: "95#汽油", price: 41, location: "园区加油站", image: "/static/images/oil.png" },
+  { title: "0#柴油", price: 50, location: "园区加油站", image: "/static/images/oil.png" },
+  { title: "98#汽油", price: 40, location: "园区加油站", image: "/static/images/oil.png" },
+];
+
 class Market extends Component {
   state = {
     visible: false,
@@ -71,40 +79,68 @@ class Market extends Component {
         <div className="head">
           <Row>
             <Col lg={4}>
-              <a href="/blockchain" target="_blank">区块链后台</a>
+              <a href="/blockchain" target="_blank">
+                <center>
+                  <img src="/static/images/enter.jpg" height={50} />
+                </center>
+              </a>
             </Col>
             <Col lg={16}>
               <center>
-                虚拟工业园区
+                <img src="/static/images/logo.jpg" height={100} />
               </center>
             </Col>
-            <Col lg={4}>账户总金额：821,233元</Col>
+            <Col lg={4}>
+              <center>
+                <img src="/static/images/account.jpg" height={50} />
+              </center>
+            </Col>
           </Row>
         </div>
-        <Tabs onChange={this.callback} type="card">
-          <TabPane tab="园区商店" key="1">
-            <Row>
-              {ITEMS.map(item => (
-                <Col span={6} key={item.title} style={{ padding: 20 }}>
-                  <Card className="card-style">
-                    <center>
-                      <img src={item.image} alt="logo" style={{ height: "140px", marginBottom: "20px" }} />
-                    </center>
+        <div className="container">
+          <Row>
+            {ITEMS.map(item => (
+              <Col span={6} key={item.title} style={{ padding: 10 }}>
+                <Card className="card-style">
+                  <center>
+                    <img src={item.image} alt="logo" style={{ height: "140px", marginBottom: "20px" }} />
+                  </center>
+                  <Row>
+                    <Col lg={12}>
+                      <h3>{item.title}</h3>
+                      <h4>{item.price}元</h4>
+                      <Button type="primary" onClick={() => this.buy("self", item)}>立即购买</Button>
+                    </Col>
+                    <Col lg={12}>
+                      <img src="/static/images/qrcode.png" width={80} style={{ float: "right" }} />
+                    </Col>
+                  </Row>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+
+          {ITEMS_2.map(item => (
+            <Col span={6} key={item.title} style={{ padding: 10 }}>
+              <Card className="card-style">
+                <center>
+                  <img src={item.image} alt="logo" style={{ height: "140px", marginBottom: "20px" }} />
+                </center>
+                <Row>
+                  <Col lg={12}>
                     <h3>{item.title}</h3>
-                    <h4>{item.price}元</h4>
-                    <Button type="primary" onClick={() => this.buy("self", item)}>购买</Button>
-                  </Card>
-                </Col>
-              ))}
-            </Row>
-          </TabPane>
-          <TabPane tab="园区加油站" key="2">
-            Content of Tab Pane 2
-    </TabPane>
-          <TabPane tab="园区停车场" key="3">
-            Content of Tab Pane 3
-    </TabPane>
-        </Tabs>
+                    <h4>{item.price}元/升</h4>
+                    <Button type="primary" onClick={() => this.buy("self", item)}>加油</Button>
+                  </Col>
+                  <Col lg={12}>
+                    <img src="/static/images/qrcode.png" width={80} style={{ float: "right" }} />
+                  </Col>
+                </Row>
+
+              </Card>
+            </Col>
+          ))}
+        </div>
         <Modal title="完成出货"
           visible={this.state.visible}
           footer={null}

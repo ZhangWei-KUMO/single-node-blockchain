@@ -1,41 +1,27 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_2a61e933f013da77efe3.js"
+  ],
   "pages": {
     "/_app": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.2a07b4de.chunk.css",
-      "static/chunks/commons.c411acd2933719023e1e.js",
-      "static/runtime/main-c60bbc7fc8ef49adb6ca.js"
-    ],
-    "/blockchain": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.2a07b4de.chunk.css",
-      "static/chunks/commons.c411acd2933719023e1e.js",
-      "static/css/styles.155ddca4.chunk.css",
-      "static/chunks/styles.eaf21c6af66c27f2b5a9.js",
-      "static/runtime/main-c60bbc7fc8ef49adb6ca.js"
-    ],
-    "/index": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.2a07b4de.chunk.css",
-      "static/chunks/commons.c411acd2933719023e1e.js",
-      "static/css/styles.155ddca4.chunk.css",
-      "static/chunks/styles.eaf21c6af66c27f2b5a9.js",
-      "static/runtime/main-c60bbc7fc8ef49adb6ca.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.2a07b4de.chunk.css",
-      "static/chunks/commons.c411acd2933719023e1e.js",
-      "static/runtime/main-c60bbc7fc8ef49adb6ca.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/index": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ],
     "/": [
-      "static/runtime/webpack-89179faa512dd01fbb62.js",
-      "static/css/commons.2a07b4de.chunk.css",
-      "static/chunks/commons.c411acd2933719023e1e.js",
-      "static/css/styles.155ddca4.chunk.css",
-      "static/chunks/styles.eaf21c6af66c27f2b5a9.js",
-      "static/runtime/main-c60bbc7fc8ef49adb6ca.js"
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
     ]
   }
 }

@@ -4,21 +4,29 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #1B2238;
+  background: #000;
   padding: 0 30px;
 }
 
 .head {
   color: #fff;
-  height: 100px;
+  height: 120px;
   padding: 20px
 }
 
 .card-style {
   border-radius: 8px;
   height: 300px;
+  box-shadow: 0 3px 18px 2px rgb(3, 245, 255,0.7);
+
 }
 
 .card-style h4 {
   color: red;
+}
+
+.container{
+  width: 80%;
+  margin:0 auto;
+  margin-top: 20px
 }
