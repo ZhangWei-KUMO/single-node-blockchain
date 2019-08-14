@@ -44,12 +44,12 @@ body{
 }
 
 .ant-table-thead > tr > th {
-  background: rgb(34, 188, 235,0.5);
-  color: #fff;
-  border-bottom:1px solid #22bceb80;
+  background: rgb(34, 188, 235,0.5)!important;
+  color: #fff!important;
+  border-bottom:1px solid #22bceb80!important;
 }
 
 .ant-table-tbody > tr > td {
-  border-bottom:1px solid #22bceb80;
+  border-bottom:1px solid #22bceb80!important;
 
 }
